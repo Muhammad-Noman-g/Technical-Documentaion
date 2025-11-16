@@ -7,35 +7,110 @@
   </head>
   <body>
     <main id="main-doc">
-      <nav id="navbar"></nav>
-      <header>
-        JavaScript Documentation
+      <nav id="navbar">
+        <header>JavaScript Documentation</header>
 
         <a href="#Introduction" class="nav-link">Introduction</a>
         <a href="#Variables" class="nav-link">Variables</a>
         <a href="#Data_Types" class="nav-link">Data Types</a>
         <a href="#Functions" class="nav-link">Functions</a>
         <a href="#Loops" class="nav-link">Loops</a>
-      </header>
+      </nav>
 
       <section class="main-section" id="Introduction">
         <header>Introduction</header>
+
+        <p>
+          JavaScript is a programming language mainly used for web development.
+        </p>
+        <p>It allows developers to build dynamic and interactive web pages.</p>
+        <p>JavaScript runs in all major browsers.</p>
+        <p>You can use it for frontend, backend, mobile apps, and more.</p>
+        <code>console.log("Hello, World!");</code>
+        <ul>
+          <li>Easy to learn</li>
+          <li>Widely used</li>
+        </ul>
       </section>
 
       <section class="main-section" id="Variables">
         <header>Variables</header>
+
+        <p>Variables store data values in JavaScript.</p>
+        <p>
+          There are three main ways to declare variables: var, let, and const.
+        </p>
+        <p>let is used for block-scoped variables.</p>
+        <p>const is used when you don't want the value to change.</p>
+        <code>let age = 22;</code>
+        <code>const PI = 3.14;</code>
+        <ul>
+          <li>var</li>
+          <li>let</li>
+          <li>const</li>
+        </ul>
       </section>
 
       <section class="main-section" id="Data_Types">
         <header>Data Types</header>
+
+        <p>JavaScript has several basic data types.</p>
+        <p>
+          The most common types include strings, numbers, booleans, and objects.
+        </p>
+        <p>Arrays are special type of objects.</p>
+        <p>Null represents an empty value.</p>
+        <code>let name = "Noman";</code>
+        <code>let isAlive = true;</code>
+        <ul>
+          <li>String</li>
+          <li>Number</li>
+          <li>Boolean</li>
+          <li>Object</li>
+        </ul>
       </section>
 
       <section class="main-section" id="Functions">
         <header>Functions</header>
+
+        <p>Functions perform specific tasks.</p>
+        <p>You can reuse functions anywhere in your program.</p>
+        <p>A function can take parameters and return values.</p>
+        <p>Arrow functions are a modern syntax.</p>
+        <code>
+          function greet() { <br />
+          &nbsp;&nbsp;return "Hello"; <br />
+          }
+        </code>
+        <code> const add = (a, b) =&gt; a + b; </code>
+        <ul>
+          <li>Reusable code</li>
+          <li>Easy to maintain</li>
+          <li>Arrow functions</li>
+        </ul>
       </section>
 
       <section class="main-section" id="Loops">
         <header>Loops</header>
+
+        <p>Loops repeat actions multiple times.</p>
+        <p>The most common loops are for and while loops.</p>
+        <p>Loops help avoid repeating code manually.</p>
+        <p>Array loops are very popular.</p>
+        <code>
+          for (let i = 0; i &lt; 5; i++) { <br />
+          &nbsp;&nbsp;console.log(i); <br />
+          }
+        </code>
+        <code>
+          let i = 0; <br />
+          while (i &lt; 5) { i++; }
+        </code>
+        <ul>
+          <li>for loop</li>
+          <li>while loop</li>
+          <li>forEach loop</li>
+        </ul>
       </section>
     </main>
   </body>
